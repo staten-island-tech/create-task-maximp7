@@ -7,7 +7,7 @@ document.getElementById('generateBtn').onclick = function() {
 
 function generateRandomNumber() {
   const randomNumber = numbers[Math.floor(Math.random() * numbers.length)];
-  document.getElementById('generatedNumberDisplay').textContent = `Generated Number: ${randomNumber}`;
+  document.getElementById('generatedNumber').textContent = `Generated Number: ${randomNumber}`;
 
   if (randomNumber > 5) {
     console.log('The generated number is greater than 5.');
